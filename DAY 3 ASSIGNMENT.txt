@@ -1,0 +1,52 @@
+ALL ASSIGNMENT OF DAY 3 COMPLETED ON THE DATE 26/01/2022 IN VISUAL STUDIO CODE
+
+// Assignment of day 3 - Validate the user email id and password with the help of if else and switch statement
+const email_id = 'letsupgrade54@gmail.com'
+const pass_id = 555444
+let email = prompt('Please Enter Your Email Id ')
+let password = prompt('Please Enter Your Password')
+
+if(email == email_id && password == pass_id)  // By using if else statement for email & password authentication
+{
+
+alert("Congratulation You are logged in ");
+}
+else
+{
+
+    alert("Please Enter correct email and password!");
+}
+
+
+By Using Switch Statement Operation Performed ----
+const email_id = 'letsupgrade54@gmail.com'          // Here is the second method for password & email authentication
+const pass_id = 555444
+let email = prompt('Please Enter Your Email Id ')   // By using switch statement operation performed
+let password = prompt('Please Enter Your Password')
+
+switch(email==email_id && password==pass_id)
+{
+case 'letsupgrade54@gmail.com' + 555444 :
+alert('Congratulaion you logged in')
+break;
+
+default :
+alert('Please provide correct email id and password')
+
+
+
+}
+
+
+By Using Another Method For Password & Email Authentication In Java Script -----
+
+const email_id = 'letsupgrade54@gmail.com'          // Here is the second method for password & email authentication
+const pass_id = 555444
+let email = prompt('Please Enter Your Email Id ?')
+let password = prompt('Please Enter Your Password')
+
+email==email_id && password==pass_id
+
+? alert('You successfully logged in')
+: alert('Please enter correct email id and password')
+
