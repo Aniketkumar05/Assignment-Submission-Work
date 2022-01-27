@@ -1,0 +1,14 @@
+// DAY 4 ASSIGNMENT TO CREATE PRINTABLE WITH HELP OF FUNCTION
+function printable(){
+
+const number = parseInt(prompt("Enter a number : "));
+
+for (let i = 1; i <= 10; i++) {
+  console.log(number + "*" + i + "=" + number * i);
+}
+
+}
+
+
+
+printable();
