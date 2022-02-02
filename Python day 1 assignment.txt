@@ -1,0 +1,10 @@
+# Python day 1 assignment
+
+Q.Add multiple numbers
+
+x= [int(i) for i in input("Enter a interger values for sum").split()]
+print(sum(x))
+
+Output :
+10 20 30 50 100
+210
