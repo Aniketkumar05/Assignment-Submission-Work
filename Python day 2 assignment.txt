@@ -1,0 +1,29 @@
+QUESTIONS 
+
+Day 2 Project Assignment:
+
+
+
+PROJECT :
+
+Let's say, you are in a lottery competition. A group of words has been given to you and you are asked to select any one character(only alphabets) which will get you a prize. You are a smart person and you thought of a way to select a character that will have maximum chances of winning a prize i.e. select the highest occurring character from the words.
+
+
+SOLUTION :
+
+# lowercase alphabets - ASCII code: 97 to 122
+for i in s:
+  freq[ord(i) - 97] += 1
+
+print(freq)
+x = freq.index(max(freq))
+print(x)
+print(chr(97 + x))
+s = 'welcome'
+d = {}
+
+for i in s:
+  d[i] = d.get(i, 0) + 1
+  print(d)
+
+print(d)
